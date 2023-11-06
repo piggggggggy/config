@@ -17,19 +17,14 @@ import os
 from setuptools import setup, find_packages
 
 setup(
-    name='spaceone-config',
+    name='spaceone-config-test-PyPI-2FA',
     version=os.environ.get('PACKAGE_VERSION'),
-    description='SpaceONE config service',
+    description='SpaceONE config service PyPI test',
     long_description='',
-    url='https://www.spaceone.dev/',
+    url='',
     author='MEGAZONE SpaceONE Team',
-    author_email='admin@spaceone.dev',
+    author_email='pyt4105@gmail.com',
     license='Apache License 2.0',
     packages=find_packages(),
-    install_requires=[
-        'spaceone-core',
-        'spaceone-api',
-        'mongoengine'
-    ],
     zip_safe=False,
 )
